@@ -48,6 +48,9 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.navegador li:hover{
+    transform: scale(1.5);
+}
 
 .navegador .menu li{
     list-style: none;
