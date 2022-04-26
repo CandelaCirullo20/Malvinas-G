@@ -20,6 +20,7 @@ body{
 }
 
 .navegador .logoMvg{
+    /*Listo para mergear*/
     width: 100px;
     height: 50px;
     grid-column: 1 / 3;
