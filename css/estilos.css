@@ -32,6 +32,12 @@ body{
     }
 }
 
+.imgNoticias{
+    height: 380px;
+}
+.imgNoticias2{
+    height: 360px;
+}
 .footer{
     display: grid;
     height: 70px;
