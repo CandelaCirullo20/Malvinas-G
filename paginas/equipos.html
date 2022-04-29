@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="icon" type="image/x-icon" href="../imagenes/00malvinaslogo2.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="../Imagenes/00malvinaslogo2.png">
     <enlace href="https: //fonts.googleapis.com/css2? family= Alice & family= Anek+Tamil:wght@500 & family= Bebas+Neue & family= Dancing+Script & family= Lobster & family= PT+Sans:ital,wght@ 1,700 & family= Permanente+Marcador & family= Justo & display=swap" rel="hoja de estilo"></enlace>
     <script src="https://kit.fontawesome.com/1edf4208cf.js" crossorigin="anonymous"></script>
 
@@ -14,59 +15,96 @@
 
 </head>
 
-
 <body>
     <header>
     
-        <nav class="navegador">
-            <a href="../index.html"><img class="logoMvg" src="../imagenes/00malvinaslogo2.png" alt="logoMalvinas"> </a>
-            <ul class="menu">
-                <li><a href="../paginas/noticias.html">Noticias</a></li>
-                <li><a href="#">Equipos</a></li>
-                <li><a href="./malvinas.html">Malvinas</a></li>
-                <li><a href="../paginas/tienda.html">Tienda</a></li>
-            </ul>
-    
-         </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img class="logoMvg" src="../imagenes/00malvinaslogo2.png" alt="logoMalvinas"> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../paginas/malvinas.html">Malvinas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/noticias.html">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Equipos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/tienda.html">Tienda</a>
+                  </li>
+
+                 
+                  <li class="nav-item">
+                    <a class="nav-link disabled"></a>
+                  </li>
+                </ul>
+
+
+
+                
+                
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
     
 
     
     
     </header>
-    
-    <div class="gallery-equipo">
-        <div class="gallery_">
-            <img src="../imagenes/buzukajugador.png" alt="buzucaJugador" class="gallery__img">
-            <h2 class="img__title">BUZUCA <br>Erick Domingues </h2>
-        </div>
-        <div class="gallery_">
-            <img src="../imagenes/denikejugador.png" alt="danikeJugador" class="gallery__img">
-            <h2 class="img__title">DENIKE <br> Denis Uriarte </h2>
-        </div>
-        <div class="gallery_">
-            <img src="../imagenes/kingstarjugador.png" alt="kingstarJugador" class="gallery__img">
-            <h2 class="img__title">KINGST4R <br> Matheus  Pinto</h2>
-        </div>
-        <div class="gallery_">
-            <img src="../imagenes/pdzjugador.png" alt="pdzJugador" class="gallery__img">
-            <h2 class="img__title">PDZ <br>Pedro Butra </h2>
-        </div>
-        <div class="gallery_">
-            <img src="../imagenes/ragnarjugador.png" alt="ragnarJugador" class="gallery__img">
-            <h2 class="img__title">RAGNAR<br>Ivan Dal Molin</h2>
-        </div>
-        <div class="gallery_">
-            <img src="../imagenes/rules.png" alt="rulesCoach" class="gallery__img">
-            <h2 class="img__title">RULES <br> Lucas Perez </h2>
-        </div>
-        <div class="gallery_">
-            <img src="../imagenes/imagenInicio.jpeg" alt="rules" class="gallery__img">
-        </div>
 
-    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+              <img src="../imagenes/buzukajugador.png" alt="buzucaJugador"  class="rounded-circle"  width="304" height="304">
+            <h2 class="h2Circulo"> BUZUCA</h2>
+             <p class="pCirculo"> Erick Domingues <br>Edad: 22 <br>Nacionalidad: Br <br>Rol: Player</p>            
+          </div>
+          <div class="col order-5">
+              <img src="../imagenes/denikejugador.png" alt="danikeJugador"  class="rounded-circle"  width="304" height="304">
+            <h2 class="h2Circulo">DENIKE</h2>
+             <p class="pCirculo">Denis Ezequiel Uriarte <br>Edad: 23 <br> Nacionalidad: Arg <br>Rol: Player</p>            
+          </div>
+          <div class="col order-1">
+              <img src="../imagenes/kingstarjugador.png" alt="kingstarJugador"  class="rounded-circle"  width="304" height="304">
+            <h2 class="h2Circulo">KINGST4R</h2>
+            <p class="pCirculo">Matheus Da Silva Pinto <br> Edad: 21 <br>Nacionalidad: Br <br> Rol: Player</p>            
+          </div>
+        </div>
+      </div>
 
-      
-    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+              <img src="../imagenes/pdzjugador.png" alt="pdzJugador" class="rounded-circle"  width="304" height="304">
+            <h2 class="h2Circulo" >PDZ</h2>
+             <p class="pCirculo">Pedro Butra <br>Edad: 24 <br>Nacionalidad: Arg <br>Rol: Player</p>            
+          </div>
+          <div class="col order-5">
+              <img  src="../imagenes/ragnarjugador.png" alt="ragnarJugador"  class="rounded-circle"  width="304" height="304">
+            <h2 class="h2Circulo">RAGNAR</h2>
+             <p class="pCirculo">Ivan Dal Molin <br>Edad: 24 <br>Nacionalidad: Arg <br> Rol: Player</p>            
+          </div>
+          <div class="col order-1">
+              <img  src="../imagenes/rules.png" alt="rulesCoach" class="rounded-circle"  width="304" height="304">
+            <h2 class="h2Circulo">RULES</h2>
+             <p class="pCirculo">Lucas Perez <br> Edad: 19 <br> Nacionalidad: Arg <br> Rol: Coach</p>            
+          </div>
+        </div>
+      </div>
+
+
+        
+        <footer class="footer">
         <ul>
             <li>
                 <a href="https://www.facebook.com/MalvinasGamingEsports"  target="blank">
@@ -96,6 +134,6 @@
         </ul>
     </footer>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
 </body>
 </html>
