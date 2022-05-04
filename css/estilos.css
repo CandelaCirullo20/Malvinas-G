@@ -2,15 +2,23 @@
 nav{
     background-image: url(../imagenes/bgWeb.png);
     -webkit-box-shadow: 5px 5px 33px 5px rgba(0,0,0,0.53); 
-box-shadow: 5px 5px 33px 5px rgba(0,0,0,0.53);
+    box-shadow: 5px 5px 33px 5px rgba(0,0,0,0.53);
 }
-
+nav li{
+    transition: transform 0.5s;
+}
+nav li:hover{
+    transform: scale(1.1);
+}
 body{
     background-image: url(../imagenes/bgWeb.png);
 }
 .logoMvg{
     width: 95px;
-    
+    transition: transform 0.5s;   
+}
+.logoMvg:hover{
+    transform: scale(1.2);
 }
 
 #carouselExampleCaptions{
@@ -47,10 +55,11 @@ body{
 }
 @media only screen and (max-width:768px){
     .imgNoticias{
-        height: 160px;
+        height: 150px;
+       
     }
     .imgNoticias2{
-        height: 150px;
+        height: 140px;
     }
 }
 
@@ -79,6 +88,7 @@ background: linear-gradient(0deg, rgba(14,14,52,1) 0%, rgba(58,58,150,1) 49%, rg
     text-align: center;
 }
 
+
 .footer{
     display: grid;
     height: 70px;
@@ -105,6 +115,11 @@ background: linear-gradient(0deg, rgba(14,14,52,1) 0%, rgba(58,58,150,1) 49%, rg
 }
 
 
-
-
-
+@media only screen and (max-width:768px){
+    .footer ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+}
+}
