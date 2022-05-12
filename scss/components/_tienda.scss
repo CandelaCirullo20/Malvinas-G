@@ -1,0 +1,24 @@
+@import "../base/variables";
+
+.h1Tienda{
+        @extend %center;
+       font-size:map-get($tamanio-letra, titulos);
+       
+}
+
+.h2Circulo {
+    @extend %center;
+    font-size: map-get($tamanio-letra,subtitulos);
+}
+.pCirculo{
+    @extend %center;
+    font-size: map-get($tamanio-letra, parrafos);
+}
+
+
+.containerTienda1{
+    padding: 7%;
+}
+.containerTienda{
+    @extend %center;
+}

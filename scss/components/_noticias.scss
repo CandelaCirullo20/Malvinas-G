@@ -1,0 +1,38 @@
+@import"../base/variables";
+
+.h1Noticias{
+    @extend %center;
+    font-size: map-get($tamanio-letra, titulos);
+}
+.containerNoticias{
+    padding: 2%;
+}
+
+.parrafoNoticias{
+    font-size: map-get($tamanio-letra, parrafos);
+}
+.imgNoticias{
+    height: 380px;
+    border-radius: 40px 40px 40px 40px;
+}
+.imgNoticias2{
+    height: 360px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+@include mediaQuery(mobile){
+    .imgNoticias{
+        height: 150px;
+       
+    }
+    .imgNoticias2{
+        height: 140px;
+    }
+    
+}
+
+
+.container-fluid2{
+    background: rgb(14,14,52);
+background: linear-gradient(0deg, rgba(14,14,52,1) 0%, rgba(58,58,150,1) 49%, rgba(71,196,221,1) 100%);
+}

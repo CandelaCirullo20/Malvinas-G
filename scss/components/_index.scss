@@ -1,0 +1,24 @@
+@import"../base/variables";
+
+#carouselExampleCaptions{
+    height: $tamañocompleto;
+}
+
+.carousel-item img{
+    width: $tamañocompleto;
+    height: 550px;
+    
+}
+
+@include mediaQuery(mobile){
+    #carouselExampleCaptions{
+        height: 100%;
+    }
+
+    .carousel-item img{
+        width: 100%;
+        height: 150px;
+        
+    }
+}
+

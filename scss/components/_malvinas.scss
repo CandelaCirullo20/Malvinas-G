@@ -3,7 +3,7 @@
 
 .header{
     .navbar{
-        background-color: $color-principal;
+        background-color: map-get($colores, color-principal );
         li{
             transition: $transition;
             &:hover{
@@ -17,24 +17,31 @@
     width: 90px;
     transition: $transition;   
 
-    .logoMvg:hover{
+    &:hover{
         transform: scale(1.2);
     }
 }
+
+.h1Nosotros{
+    @extend %center;
+    font-size: map-get($tamanio-letra, titulos);
+}
 .h2Circulo {
-    text-align: center;
+    @extend %center;
+    font-size: map-get($tamanio-letra,subtitulos);
 }
 
 .pCirculo{
-    text-align: center;
+    @extend %center;
+    font-size: map-get($tamanio-letra, parrafos);
 }
 
 .h3Nosotros{
-     text-align: center;
+    @extend %center;
 }
 
 footer{
-    display: grid;
+    @include flexbox(grid);
     height: 70px;
     grid-area: pie;
     
@@ -44,7 +51,7 @@ footer{
         justify-content: space-between;
         width: 20%;
         margin: auto;
-        text-align: center;
+        @extend %center;
         
         a{
            text-decoration: none;
@@ -55,4 +62,13 @@ footer{
        }
     }
     
+}
+
+@include mediaQuery(mobile){
+    .footer ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+}   
 }

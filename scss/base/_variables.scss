@@ -1,3 +1,37 @@
 
 $color-principal: #74b9ff;
 $transition: transform 0.5s;
+$tamañocompleto: 100%;
+
+
+$tamanio-letra: (
+    titulos: 24px,
+    subtitulos: 20px,
+    parrafos: 14px
+);
+
+$colores: (
+    color-principal: $color-principal
+);
+
+
+
+%center{
+    text-align: center;
+
+
+};
+
+@mixin flexbox($display) {
+    display: $display;
+    
+}
+
+@mixin mediaQuery($pantalla) {
+
+    @if $pantalla == mobile {
+        @media only screen and (max-width:768px){
+            @content;     
+    }
+  }
+}
