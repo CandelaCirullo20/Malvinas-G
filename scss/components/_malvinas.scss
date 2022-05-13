@@ -21,6 +21,9 @@
         transform: scale(1.2);
     }
 }
+body{
+    background-image: $fondo-geneal;
+}
 
 .h1Nosotros{
     @extend %center;
