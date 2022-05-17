@@ -1,10 +1,6 @@
 @import "../base/variables";
 
-.h1Tienda{
-        @extend %center;
-       font-size:map-get($tamanio-letra, titulos);
-       
-}
+
 
 .h2Circulo {
     @extend %center;

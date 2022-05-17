@@ -1,7 +1,7 @@
-.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .h1Noticias, .h1Equipo, .h1Tienda, .containerTienda {
+.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .rounded-circle, .containerTienda {
   text-align: center; }
 
-.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .h1Noticias, .h1Equipo, .h1Tienda, .containerTienda {
+.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .rounded-circle, .containerTienda {
   text-align: center; }
 
 #carouselExampleCaptions {
@@ -11,21 +11,24 @@
   width: 100%;
   height: 550px; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 780) {
   #carouselExampleCaptions {
     height: 100%; }
   .carousel-item img {
     width: 100%;
     height: 150px; } }
 
-.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .h1Noticias, .h1Equipo, .h1Tienda, .containerTienda {
+.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .rounded-circle, .containerTienda {
   text-align: center; }
 
-.header .navbar {
-  background-color: #74b9ff; }
-  .header .navbar li {
+header .navbar {
+  background-image: url(../imagenes/bgWeb.png);
+  -webkit-box-shadow: 5px 5px 33px 5px rgba(0, 0, 0, 0.53);
+  box-shadow: 5px 5px 33px 5px rgba(0, 0, 0, 0.53);
+  box-shadow: 5px 5px 33px 5px rgba(0, 0, 0, 0.53); }
+  header .navbar li {
     transition: transform 0.5s; }
-    .header .navbar li:hover {
+    header .navbar li:hover {
       transform: scale(1.1); }
 
 .logoMvg {
@@ -54,26 +57,23 @@ footer {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 20%;
-    margin: auto; }
+    width: 20%; }
     footer ul a {
       text-decoration: none;
       color: black;
       font-size: 24px;
       align-items: center; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 780) {
   .footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10%; } }
+    width: 10%;
+    margin: auto; } }
 
-.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .h1Noticias, .h1Equipo, .h1Tienda, .containerTienda {
+.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .rounded-circle, .containerTienda {
   text-align: center; }
-
-.h1Noticias {
-  font-size: 24px; }
 
 .containerNoticias {
   padding: 2%; }
@@ -82,28 +82,21 @@ footer {
   font-size: 14px; }
 
 .imgNoticias {
-  height: 380px;
-  border-radius: 40px 40px 40px 40px; }
+  height: 350px;
+  border-radius: 40px 40px 40px 40px;
+  margin: 3%; }
 
 .imgNoticias2 {
-  height: 360px;
-  border-radius: 40px 40px 40px 40px; }
-
-@media only screen and (max-width: 768px) {
-  .imgNoticias {
-    height: 150px; }
-  .imgNoticias2 {
-    height: 140px; } }
+  height: 335px;
+  border-radius: 40px 40px 40px 40px;
+  margin: 3%; }
 
 .container-fluid2 {
   background: #0e0e34;
   background: linear-gradient(0deg, #0e0e34 0%, #3a3a96 49%, #47c4dd 100%); }
 
-.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .h1Noticias, .h1Equipo, .h1Tienda, .containerTienda {
+.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .rounded-circle, .containerTienda {
   text-align: center; }
-
-.h1Equipo {
-  font-size: 24px; }
 
 .h2Circulo {
   font-size: 20px; }
@@ -111,11 +104,8 @@ footer {
 .pCirculo {
   font-size: 14px; }
 
-.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .h1Noticias, .h1Equipo, .h1Tienda, .containerTienda {
+.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .rounded-circle, .containerTienda {
   text-align: center; }
-
-.h1Tienda {
-  font-size: 24px; }
 
 .h2Circulo {
   font-size: 20px; }
