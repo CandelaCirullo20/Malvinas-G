@@ -49,7 +49,7 @@ body{
 }
 
 footer{
-    @include flexbox(grid);
+    display: grid;
     height: 70px;
     grid-area: pie;
     
@@ -58,7 +58,8 @@ footer{
         display: flex;
         justify-content: space-between;
         width: 20%;
-        @extend %center;
+        margin: auto;
+        text-align: center;
         
         a{
            text-decoration: none;
@@ -77,6 +78,6 @@ footer{
         justify-content: center;
         align-items: center;
         width: 10%;
-        margin: auto;
-}   
+       
+    }
 }

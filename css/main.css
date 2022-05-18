@@ -1,7 +1,7 @@
-.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .rounded-circle, .containerTienda {
+.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, .rounded-circle, .containerTienda {
   text-align: center; }
 
-.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .rounded-circle, .containerTienda {
+.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, .rounded-circle, .containerTienda {
   text-align: center; }
 
 #carouselExampleCaptions {
@@ -11,14 +11,14 @@
   width: 100%;
   height: 550px; }
 
-@media only screen and (max-width: 780) {
+@media only screen and (max-width: 500px) {
   #carouselExampleCaptions {
     height: 100%; }
   .carousel-item img {
     width: 100%;
     height: 150px; } }
 
-.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .rounded-circle, .containerTienda {
+.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, .rounded-circle, .containerTienda {
   text-align: center; }
 
 header .navbar {
@@ -57,22 +57,23 @@ footer {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 20%; }
+    width: 20%;
+    margin: auto;
+    text-align: center; }
     footer ul a {
       text-decoration: none;
       color: black;
       font-size: 24px;
       align-items: center; }
 
-@media only screen and (max-width: 780) {
+@media only screen and (max-width: 500px) {
   .footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10%;
-    margin: auto; } }
+    width: 10%; } }
 
-.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .rounded-circle, .containerTienda {
+.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, .rounded-circle, .containerTienda {
   text-align: center; }
 
 .containerNoticias {
@@ -91,11 +92,17 @@ footer {
   border-radius: 40px 40px 40px 40px;
   margin: 3%; }
 
+@media only screen and (max-width: 500px) {
+  .imgNoticias {
+    height: 130px; }
+  .imgNoticias2 {
+    height: 125px; } }
+
 .container-fluid2 {
   background: #0e0e34;
   background: linear-gradient(0deg, #0e0e34 0%, #3a3a96 49%, #47c4dd 100%); }
 
-.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .rounded-circle, .containerTienda {
+.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, .rounded-circle, .containerTienda {
   text-align: center; }
 
 .h2Circulo {
@@ -104,7 +111,7 @@ footer {
 .pCirculo {
   font-size: 14px; }
 
-.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, footer ul, .rounded-circle, .containerTienda {
+.h1Nosotros, .h2Circulo, .pCirculo, .h3Nosotros, .rounded-circle, .containerTienda {
   text-align: center; }
 
 .h2Circulo {

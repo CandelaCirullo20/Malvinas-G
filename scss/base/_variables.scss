@@ -31,7 +31,7 @@ $colores: (
 @mixin mediaQuery($pantalla) {
 
     @if $pantalla == mobile {
-        @media only screen and (max-width: 780){
+        @media only screen and (max-width: 500px){
             @content;     
     }
   }

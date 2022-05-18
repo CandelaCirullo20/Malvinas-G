@@ -19,7 +19,15 @@
     margin: 3%;
 }
 
-
+@include mediaQuery(mobile){
+    .imgNoticias{
+        height: 130px;
+       
+    }
+    .imgNoticias2{
+        height: 125px;
+    }
+}
 
 
 .container-fluid2{
