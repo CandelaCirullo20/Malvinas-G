@@ -32,8 +32,8 @@ $colores: (
 
     @if $pantalla == mobile {
         @media only screen and (max-width: 500px){
-            @content;     
+            @content;
+        }
     }
-  }
 }
     
